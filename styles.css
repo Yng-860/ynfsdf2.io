@@ -31,7 +31,7 @@ table{
      p{
     align-items: center;
     text-align: center;
-    font-size: 90px;
+    font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkblue;
 }
@@ -56,4 +56,5 @@ table{
 #Project:hover {
     transform: scale(1.03)
 }
+
 
