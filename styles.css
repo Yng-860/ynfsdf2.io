@@ -12,7 +12,7 @@ table{
     }
 #Project{
   color: black;
-    padding: 25px 28px;
+    padding: 20px 20px;
     border-radius: 30em;
     font-size: 24px;
     text-decoration: none;
@@ -21,11 +21,8 @@ table{
     position: relative;
     cursor: pointer;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    z-index: 1;
-    box-shadow: 6px 6px 12px #afb4ac,
-        -6px -6px 12px #b6b8b4;
     align-items:center;
+      text-align: center;
 }
 
      p{
@@ -37,24 +34,8 @@ table{
 }
 
 
-#Project::before {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 100%;
-    border-radius: 30em;
-    top: 0;
-    left: 0;
-    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
-    transition: width 0.5s ease;
-    display: block;
-    z-index: -1;
-}
-#Project:hover::before {
-    width: 100%;
-}
-#Project:hover {
-    transform: scale(1.03)
-}
+
+
+
 
 
